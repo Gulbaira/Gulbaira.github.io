@@ -147,10 +147,9 @@ body{
     padding: 20px 80px;
 }
 .container3{
-    padding: 50px 0;
+    padding: 50px 0px;
     display: flex;
-    /* justify-content: space-between; */
-    background-color: aliceblue;
+    justify-content: space-between;
 }
 
 .container3-image{
@@ -185,5 +184,42 @@ body{
 }
 .container3-tracks{
     width: 505px;
+}
+.container3-tracks p{
+    font-size: 48px;
+    color: #fff;
+}
+
+.audio-track {
+    width: 400px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px 0
+}
+ 
+.time {
+    width: 400px;
+    height: 3px;
+    background-color: #7A66CC;
+}
+#audio{
+    display: none;
+}
+.play, .pause{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 25px;
+    background-color: #7A66CC;
+    border: none;
+    border-radius: 8px;
+}
+.audio-play{
+    padding-right: 220px;
+}
+.audio-buttons{
+    display: flex;
+}
+form{
+    height: 400px;
 }
 

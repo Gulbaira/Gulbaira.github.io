@@ -146,3 +146,44 @@ body{
     font-weight: 700;
     padding: 20px 80px;
 }
+.container3{
+    padding: 50px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: aliceblue;
+}
+
+.container3-image{
+    height: 700px;
+}
+.container3-violet-border{
+    background-image: url(../image/Ellipse\ 2.png);
+    background-size: cover;
+    width: 506px;
+    height: 506px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3-violet-border1{
+    background-image: url(../image/Ellipse\ 3.png);
+    background-size: cover;
+    width: 470px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container3-image{
+    width: 434px;
+    height: 434px;
+    background-image: url(../image/Ellipse\ 4.png);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+.container3-tracks{
+    width: 505px;
+}
+

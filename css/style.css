@@ -222,4 +222,17 @@ body{
 form{
     height: 400px;
 }
+form label{
+    color: #fff;
+    font-size: 17px;
 
+}
+form input, textarea{
+    background-color: #7A66CC;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.sending-form{
+    text-align: center;
+}

@@ -119,6 +119,7 @@ body{
     height: 313px;
     border: 1px solid #fff;
     border-radius: 30px 0;
+    /* padding: 50px 80px; */
 }
 .container2-border p{
     width: 520px;
@@ -135,4 +136,14 @@ body{
     position: relative;
     left: 740px;
     bottom: 400px;
+}
+.container2-border img{
+    padding: 10px 80px;
+}
+.container2-border a{
+    text-decoration: none;
+    color: #7A66CC;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 80px;
 }

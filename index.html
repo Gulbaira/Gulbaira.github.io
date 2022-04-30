@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div>
-            <p>New Single</p>
+            <p>My portfolio</p>
             <img src="image/War For Love.png" alt="">
         </div>
     </div>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="container3-tracks">
-                <p>Lovely tracks</p>
+                <p>Lovely track</p>
                 <audio id="audio" src="image/Damien_Escobar.mp3" controls></audio>
                 <div id="controls">
                     <div class="audio-track">
@@ -109,16 +109,23 @@
 
 
             <div class="sending-form">
+                <p>Please contact me, by sending message below</p>
                 <form action="https://formspree.io/f/mgedpzye" method="POST">
-                    <label>
-                        Your email:
-                        <input type="email" name="email">
-                    </label>
-                    <label>
-                        Your message:
-                        <textarea name="message"></textarea>
-                    </label>
-                    <button type="submit">Send</button>
+                    <div>
+                        <label>
+                            email:
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            message:
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <button class="submit" type="submit">Send</button>
+                    </div>
                 </form>
             </div>
 

@@ -209,7 +209,7 @@ body{
 }
 
 .audio-track {
-    width: 400px;
+    width: 100%;
     height: 3px;
     background-color: #fff;
     margin: 20px 0
@@ -239,7 +239,8 @@ p:hover, .container p:hover, .sending-form p:hover{
     color: #7A66CC;
 }
 .audio-play{
-    padding-right: 220px;
+    /* padding-right: 220px; */
+    padding-right: 40%;
 }
 .audio-buttons{
     display: flex;
@@ -311,17 +312,13 @@ form input, textarea{
 
 
   
-
+ 
   @media all and (max-width:1280px){
-    .container{
-        width: 1280px;
-    }
+    
     .container div{
-        width: 1280px;
         padding: 412px 305px;
     }
     .wrapper{
-        width: 1280px;
         padding: 0 20%;
     }
     .work-pic1, .work-pic2, .work-pic3{
@@ -357,4 +354,27 @@ form input, textarea{
         width: 360px;
         height: 360px;
     }
+    .container3-tracks{
+        width: 350px;
+    }
+    .container2{
+        padding: 0;
+    }
+    .container2-image {
+        width: 270px;
+        height: 383px;
+    }
 }
+@media all and (max-width:1080px){
+    .work-pic1, .work-pic2, .work-pic3{
+        width: 200px;
+        height: 200px;
+    }
+    .container3-tracks{
+        width: 250px;
+    }
+    .container3-tracks p{
+        font-size: 38px;
+    }
+
+} 

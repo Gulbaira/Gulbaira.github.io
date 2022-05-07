@@ -117,6 +117,8 @@ body{
     width: 350px;
     height: 400px;
     background-image: url(../image/Rectangle\ 17.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     /* z-index: 1; */
     left: 95px;
@@ -367,6 +369,13 @@ form input, textarea{
     }
 }
 @media all and (max-width:1080px) and (max-width:750px) {
+    .container div{
+        padding: 30px 5px;
+        align-items: center;
+    }
+    .container div p{
+        text-align: center;
+    }
     .work-pic1, .work-pic2, .work-pic3{
         width: 200px;
         height: 200px;
@@ -383,11 +392,25 @@ form input, textarea{
     .container3{
         display: table-row;
     }
+    .container3-tracks{
+        padding-bottom: 25px;
+    }
     .container2-image{
         display: none;
     }
     .container2-border img{
         padding: 5px;
+    }
+    .container2-border{
+        height: auto;
+    }
+    .container2-border p{
+        font-size: 14px;
+        padding: 6px 2px;
+    }
+    .container1-image1{
+        left: 147px;
+        bottom: 177px;
     }
 } 
 /* @media all and (max-width:750px){

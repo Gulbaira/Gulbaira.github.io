@@ -11,15 +11,15 @@ body{
     
 }
 .container{
-    /* width: 1920px; */
-    max-width: 100%;
+    width: 100%;
+    /* max-width: 1920px; */
     height: 1000px;
     background-image: url(../image/Rectangle\ 6.png);
     background-size: cover;
+    /* object-fit: cover; */
     background-repeat: no-repeat;
 }
 .container div{
-    /* width: 1110px; */
     max-width: 60%;
 
     padding: 412px 405px;
@@ -365,7 +365,7 @@ form input, textarea{
         height: 383px;
     }
 }
-@media all and (max-width:1080px){
+@media all and (max-width:1080px) and (max-width:750px) {
     .work-pic1, .work-pic2, .work-pic3{
         width: 200px;
         height: 200px;
@@ -376,5 +376,16 @@ form input, textarea{
     .container3-tracks p{
         font-size: 38px;
     }
+    .container1{
+        display: table-row;
+    }
+    .container3{
+        display: table-row;
+    }
 
 } 
+/* @media all and (max-width:750px){
+    .container1{
+        display: table-column;
+    }
+} */

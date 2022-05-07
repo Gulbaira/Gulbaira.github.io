@@ -154,6 +154,7 @@ body{
 }
 .container2-border img{
     padding: 10px 80px;
+    width: 100%;
 }
 .container2-border a{
     text-decoration: none;
@@ -382,7 +383,12 @@ form input, textarea{
     .container3{
         display: table-row;
     }
-
+    .container2-image{
+        display: none;
+    }
+    .container2-border img{
+        padding: 5px;
+    }
 } 
 /* @media all and (max-width:750px){
     .container1{
